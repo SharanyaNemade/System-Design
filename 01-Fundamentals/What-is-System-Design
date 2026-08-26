@@ -1,1 +1,65 @@
+What is System Design?
 
+System Design is the process of planning how a software system should be built so that it can handle users, data, traffic, failures, security, and future growth.
+
+In simple words:
+
+System design is like creating the blueprint of a software application before building it.
+
+For example, imagine you want to build YouTube.
+
+You need to think about:
+
+Where will videos be stored?
+How will users upload videos?
+How will millions of people watch videos at the same time?
+How will videos load quickly?
+Where will user information be stored?
+What happens if one server crashes?
+How will recommendations work?
+How will the system handle 100 users today and 100 million users tomorrow?
+
+All of these questions are part of system design.
+
+A Simple Real-World Example
+
+Think about building a house.
+
+Before constructing it, you create a plan:
+
+                 HOUSE
+                   |
+        +----------+----------+
+        |          |          |
+     Bedroom    Kitchen    Bathroom
+        |
+     Electricity
+        |
+     Plumbing
+
+
+You decide:
+
+Where each room goes
+Where electricity goes
+Where water pipes go
+How much material is needed
+How many people the house should accommodate
+
+Software systems are similar.
+
+Before writing thousands or millions of lines of code, we decide:
+
+                  APPLICATION
+                       |
+          +------------+------------+
+          |            |            |
+       Frontend      Backend      Database
+                         |
+              +----------+----------+
+              |          |          |
+           Cache      Message      Storage
+                      Queue
+
+
+That overall planning is System Design.
