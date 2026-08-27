@@ -3,12 +3,6 @@
 
 
 
-
-
-
-
-# System Design — Short Notes
-
 ## 1. What is System Design?
 
 System Design is the process of planning how a software system will handle:
