@@ -2,6 +2,239 @@
 
 
 
+
+
+
+
+System-Design/
+│
+├── README.md
+│
+├── 01-Fundamentals/
+│   ├── What-is-System-Design.md
+│   ├── Functional-vs-Non-Functional-Requirements.md
+│   ├── Scalability.md
+│   ├── Availability.md
+│   ├── Reliability.md
+│   ├── Performance-and-Latency.md
+│   ├── Bottlenecks.md
+│   └── Trade-offs.md
+│
+├── 02-HLD/
+│   │
+│   ├── 01-Architecture-Basics/
+│   │   ├── Client-Server.md
+│   │   ├── Three-Tier-Architecture.md
+│   │   ├── Monolithic-Architecture.md
+│   │   ├── Microservices.md
+│   │   └── Distributed-Systems.md
+│   │
+│   ├── 02-Scalability/
+│   │   ├── Vertical-vs-Horizontal-Scaling.md
+│   │   ├── Load-Balancing.md
+│   │   ├── Stateless-vs-Stateful.md
+│   │   └── Auto-Scaling.md
+│   │
+│   ├── 03-Databases/
+│   │   ├── SQL-vs-NoSQL.md
+│   │   ├── Database-Indexing.md
+│   │   ├── Transactions.md
+│   │   ├── ACID.md
+│   │   ├── Database-Replication.md
+│   │   ├── Read-Replicas.md
+│   │   ├── Database-Sharding.md
+│   │   └── Partitioning.md
+│   │
+│   ├── 04-Caching/
+│   │   ├── What-is-Caching.md
+│   │   ├── Cache-Strategies.md
+│   │   ├── Cache-Aside.md
+│   │   ├── Cache-Invalidation.md
+│   │   ├── TTL.md
+│   │   ├── Cache-Stampede.md
+│   │   └── Redis.md
+│   │
+│   ├── 05-Communication/
+│   │   ├── REST.md
+│   │   ├── API-Gateway.md
+│   │   ├── Synchronous-Communication.md
+│   │   ├── Asynchronous-Communication.md
+│   │   ├── Message-Queues.md
+│   │   ├── RabbitMQ.md
+│   │   ├── Kafka.md
+│   │   └── Event-Driven-Architecture.md
+│   │
+│   ├── 06-Storage/
+│   │   ├── File-Storage.md
+│   │   ├── Object-Storage.md
+│   │   ├── CDN.md
+│   │   └── Pre-Signed-URLs.md
+│   │
+│   ├── 07-Security/
+│   │   ├── Authentication.md
+│   │   ├── Authorization.md
+│   │   ├── JWT.md
+│   │   ├── OAuth.md
+│   │   ├── Rate-Limiting.md
+│   │   ├── Encryption.md
+│   │   └── Secrets-Management.md
+│   │
+│   ├── 08-Reliability/
+│   │   ├── Fault-Tolerance.md
+│   │   ├── Redundancy.md
+│   │   ├── Failover.md
+│   │   ├── Retry.md
+│   │   ├── Exponential-Backoff.md
+│   │   ├── Circuit-Breaker.md
+│   │   ├── Idempotency.md
+│   │   └── Graceful-Degradation.md
+│   │
+│   ├── 09-Distributed-Systems/
+│   │   ├── CAP-Theorem.md
+│   │   ├── Consistency.md
+│   │   ├── Eventual-Consistency.md
+│   │   ├── Distributed-Locks.md
+│   │   └── Leader-Election.md
+│   │
+│   ├── 10-Observability/
+│   │   ├── Logging.md
+│   │   ├── Monitoring.md
+│   │   ├── Metrics.md
+│   │   ├── Distributed-Tracing.md
+│   │   ├── Health-Checks.md
+│   │   └── Alerting.md
+│   │
+│   ├── 11-Deployment/
+│   │   ├── IIS.md
+│   │   ├── Reverse-Proxy.md
+│   │   ├── Containers.md
+│   │   ├── Docker.md
+│   │   ├── Load-Balancer-Deployment.md
+│   │   └── CI-CD.md
+│   │
+│   └── 12-System-Design-Problems/
+│       ├── URL-Shortener/
+│       │   └── README.md
+│       ├── Employee-Management-System/
+│       │   └── README.md
+│       ├── E-Commerce-System/
+│       │   └── README.md
+│       ├── Food-Delivery-System/
+│       │   └── README.md
+│       ├── Chat-Application/
+│       │   └── README.md
+│       ├── Notification-System/
+│       │   └── README.md
+│       ├── YouTube/
+│       │   └── README.md
+│       └── Ride-Sharing-System/
+│           └── README.md
+│
+├── 03-LLD/
+│   │
+│   ├── 01-OOP/
+│   │   ├── Classes-and-Objects.md
+│   │   ├── Encapsulation.md
+│   │   ├── Abstraction.md
+│   │   ├── Inheritance.md
+│   │   └── Polymorphism.md
+│   │
+│   ├── 02-SOLID/
+│   │   ├── Single-Responsibility.md
+│   │   ├── Open-Closed.md
+│   │   ├── Liskov-Substitution.md
+│   │   ├── Interface-Segregation.md
+│   │   └── Dependency-Inversion.md
+│   │
+│   ├── 03-Design-Patterns/
+│   │   ├── Creational/
+│   │   │   ├── Singleton.md
+│   │   │   ├── Factory.md
+│   │   │   ├── Abstract-Factory.md
+│   │   │   ├── Builder.md
+│   │   │   └── Prototype.md
+│   │   │
+│   │   ├── Structural/
+│   │   │   ├── Adapter.md
+│   │   │   ├── Decorator.md
+│   │   │   ├── Facade.md
+│   │   │   └── Proxy.md
+│   │   │
+│   │   └── Behavioral/
+│   │       ├── Strategy.md
+│   │       ├── Observer.md
+│   │       ├── Command.md
+│   │       ├── State.md
+│   │       └── Template-Method.md
+│   │
+│   ├── 04-UML/
+│   │   ├── Class-Diagram.md
+│   │   ├── Sequence-Diagram.md
+│   │   ├── Activity-Diagram.md
+│   │   └── State-Diagram.md
+│   │
+│   ├── 05-Data-Structures/
+│   │   ├── Arrays.md
+│   │   ├── Linked-List.md
+│   │   ├── Stack.md
+│   │   ├── Queue.md
+│   │   ├── HashMap.md
+│   │   ├── Trees.md
+│   │   └── Graphs.md
+│   │
+│   └── 06-LLD-Problems/
+│       ├── Parking-Lot/
+│       │   └── README.md
+│       ├── Library-Management-System/
+│       │   └── README.md
+│       ├── ATM/
+│       │   └── README.md
+│       ├── Elevator-System/
+│       │   └── README.md
+│       ├── Tic-Tac-Toe/
+│       │   └── README.md
+│       ├── Chess/
+│       │   └── README.md
+│       └── Car-Rental-System/
+│           └── README.md
+│
+├── 04-Case-Studies/
+│   ├── YouTube.md
+│   ├── WhatsApp.md
+│   ├── Instagram.md
+│   ├── Amazon.md
+│   ├── Uber.md
+│   └── Netflix.md
+│
+├── 05-DotNet-System-Design/
+│   ├── ASP.NET-Core-Architecture.md
+│   ├── Web-API-Architecture.md
+│   ├── Dependency-Injection.md
+│   ├── Middleware.md
+│   ├── Authentication-and-Authorization.md
+│   ├── Distributed-Caching.md
+│   ├── Background-Services.md
+│   ├── API-Versioning.md
+│   ├── Rate-Limiting.md
+│   ├── Health-Checks.md
+│   ├── Logging-and-Observability.md
+│   └── Scaling-ASP.NET-Core.md
+│
+└── 06-Interview-Preparation/
+    ├── HLD-Interview-Framework.md
+    ├── LLD-Interview-Framework.md
+    ├── Common-HLD-Questions.md
+    ├── Common-LLD-Questions.md
+    ├── System-Design-Cheatsheet.md
+    └── Important-Trade-Offs.md
+
+
+
+
+
+
+    
+
 What is System Design?
 
 System Design is the process of planning how a software system should be built so that it can handle users, data, traffic, failures, security, and future growth.
