@@ -1,5 +1,7 @@
 What is System Design?
 
+System Design is about deciding how different components of a software system will work together to build a scalable, reliable, secure, and high-performing application.
+System Design is the process of defining the architecture, components, databases, communication, and interactions of a software system so that it can meet functional and non-functional requirements such as scalability, performance, availability, reliability, and security.
 System Design is the process of planning how a software system should be built so that it can handle users, data, traffic, failures, security, and future growth.
 
 In simple words:
